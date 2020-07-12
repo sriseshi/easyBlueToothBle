@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="c.example.dell.ktlionble" >
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!--蓝牙相关的权限-->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+</manifest>

@@ -69,6 +69,7 @@ public class ByteHexHelper {
         int len = hex.length() / 2;
         byte[] b = new byte[len];
         char[] hc = hex.toCharArray();
+
         for (int i = 0; i < len; i++) {
             int p = 2 * i;
             b[i] = (byte) (charToByte(hc[p]) << 4 | charToByte(hc[p + 1]));
